@@ -1,0 +1,22 @@
+{% extends "base.html"%}
+{%block title%}Dev Guide{%endblock%}
+{% block content %}
+<h2>This site is a one-stop resource for helping you prepare for tech-roles</h2>
+<p>Just choose your desired job-title to get a comprehensive list of resources to help you prepare for interview or build new products</p>
+<form action = "" onsubmit = "return false">
+<label for="title"></label>Choose a job title:</label>
+
+<select name="title" id="title">
+  <option value="Software engineer">Software engineer</option>
+  <option value="Mobile Developer">Mobile Developer</option>
+  <option value="Frontend Engineer">Frontend Engineer</option>
+  <option value="Backend Engineer">Backend Engineer</option>
+  <option value="QA Engineer">QA Engineer</option>
+  <option value="Site Reliability Engineer">Site Reliability Engineer</option>
+  <option value="DevOps">DevOps</option>
+  <option value="Software Architect">Software Architect</option>
+</select>
+<input type="submit" value="Submit">
+</form>
+</select>
+{% endblock %}
